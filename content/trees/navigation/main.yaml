@@ -1,0 +1,27 @@
+tree:
+  -
+    id: e92a4bd3-a067-4ae0-bf77-e4a3005693d0
+    entry: home
+  -
+    id: dea403dc-efb6-40a9-8c9f-7bf30baf4794
+    entry: 62136fa2-9e5c-4c38-a894-a2753f02f5ff
+  -
+    id: 762a905a-f69f-421a-bbba-3de4e37114bf
+    entry: b9e4bfe3-9c12-4553-b7ef-f43c22ffaa63
+    children:
+      -
+        id: 1ef42341-4b7e-42c2-a97e-1daaf81c0e32
+        entry: 7ac0bdda-1b84-45f8-ac52-2575dd7e8251
+      -
+        id: 47860e34-3326-471b-89c6-b71a8b249db5
+        entry: 8e4b4e60-5dfb-47b0-a2d7-a904d64aeb80
+      -
+        id: 0a683e08-3847-408b-b5b5-bf234c011ae2
+        entry: af43e0fb-a338-4433-b60a-3bed773be341
+  -
+    id: 100b399e-49d8-46cc-9cdb-778f521fe424
+    entry: f5a53468-017e-4725-b5b6-a745df7e94cb
+  -
+    id: 6d898e71-bd17-4f52-8af7-6f8de683665e
+    title: 'zur Website'
+    url: 'https://www.morethings.digital'

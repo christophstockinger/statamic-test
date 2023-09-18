@@ -1,0 +1,117 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: salutation
+            field:
+              options:
+                Herr: Herr
+                Frau: Frau
+              taggable: false
+              push_tags: false
+              multiple: false
+              max_items: 1
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Salutation
+              icon: select
+              width: 33
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: spacer
+            field:
+              type: spacer
+              display: Spacer
+              icon: width
+              width: 66
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: firstname
+            field:
+              input_type: text
+              placeholder: Max
+              antlers: false
+              type: text
+              display: Firstname
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: lastname
+            field:
+              input_type: text
+              placeholder: Mustermann
+              antlers: false
+              type: text
+              display: Lastname
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: address
+            field:
+              default: |-
+                Musterstraße 1
+                12345 Musterstadt
+              antlers: false
+              type: textarea
+              display: Address
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: email
+            field:
+              input_type: email
+              placeholder: max.mustermann@example.com
+              antlers: false
+              type: text
+              display: Email
+              icon: text
+              listable: hidden
+              instructions_position: below
+              visibility: visible
+              hide_display: false
+          -
+            handle: message
+            field:
+              default: 'Your message'
+              antlers: false
+              type: textarea
+              display: Message
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: accept_privacy
+            field:
+              inline: false
+              type: checkboxes
+              display: 'Accept Privacy'
+              icon: checkboxes
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

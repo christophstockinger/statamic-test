@@ -1,0 +1,87 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Name
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: address
+            field:
+              antlers: false
+              type: textarea
+              display: Address
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: managing_directors
+            field:
+              type: list
+              display: 'Managing Directors'
+              icon: list
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: phone
+            field:
+              input_type: tel
+              antlers: false
+              type: text
+              display: Phone
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: email
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: Email
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: website
+            field:
+              input_type: url
+              antlers: false
+              type: text
+              display: Website
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              prepend: 'https://'
+          -
+            handle: website_prefix
+            field:
+              default: 'https://'
+              type: hidden
+              display: 'Website Prefix'
+              icon: hidden
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

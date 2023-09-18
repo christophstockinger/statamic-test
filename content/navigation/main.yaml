@@ -1,0 +1,6 @@
+title: Main
+collections:
+  - pages
+  - articles
+max_depth: 3
+root: true

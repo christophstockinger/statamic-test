@@ -1,0 +1,12 @@
+title: 'Company Information'
+data:
+  name: 'morethingsdigital GmbH'
+  address: |-
+    Donauweg 1
+    94034 Passau
+  managing_directors:
+    - 'Manuel Maier'
+    - 'Christoph Stockinger'
+  phone: '01601899824'
+  email: hi@morethings.digital
+  website: www.morethings.digital
